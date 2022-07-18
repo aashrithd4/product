@@ -33,7 +33,7 @@ public class product implements Serializable {
     private Date createdAt;
     @Column(name="updatetimestamp")
     @UpdateTimestamp
-    private Data updatedAt;
+    private Date updatedAt;
 
 
 }
